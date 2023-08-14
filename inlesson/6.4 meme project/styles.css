@@ -1,0 +1,32 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+
+#image-div {
+    border: solid white 5px;
+    height: 100%;
+    width: 100%;
+}
+
+#meme-div {
+    margin-top: 150px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
