@@ -1,0 +1,29 @@
+.container {
+    display: block;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 3;
+    height: 200px;
+    background-color: #0B2447;
+    text-align: center;
+}
+
+.footer > {
+    grid-row: 1;
+}
+
+.footer-link {
+    margin: 10px 20px;
+    color: #576CBC;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-row: 1;
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-row: 2;
+}
