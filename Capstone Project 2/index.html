@@ -5,35 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Uğur Oğuzhan Obuz</title>
+    <style>
+        @media (min-width: 300px) and (max-width: 700px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            hr {
+                width: 350px;
+            }
+
+            .hero-h2 {
+                font-size: 18px;
+            }
+
+            .hero-cont {
+                height: 600px;
+            }
+
+            .hero-cont > div {
+                flex-direction: column;    
+            }
+        }
+    </style>
 </head>
 <body>
     <section title="hero">
-        <div class="container">
-
+        <div class="hero">
+            <div>
+                <h1>Uğur Oğuzhan Obuz</h1>
+            </div>
+            <div>
+                <h2 class="hero-h2">Software Engineering Student</h2>
+            </div>
+        </div>
+        <div class="hero-cont">
+            <div>
+                <div class="profile-pic">
+                    <img src="./assets/pp.jpg" alt="Uğur Obuz" height="200">
+                </div>
+                <div class="hero-text">
+                    <h3>Hi, I'm Uğur</h3>
+                    <p>I'm a fullstack developer who studies software engineering at BAU</p>
+                    <div>
+                        <a class="resume" href="../Capstone Project 1/index.html">See my resume</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section title="Resume">
-        <div class="container">
-
-        </div>
-    </section>
+    <div class="hr">
+       <hr> 
+    </div>
 
     <section title="My works">
-        <div class="container">
+        <div class="my-works">
 
         </div>
     </section>
+
+    <div class="hr">
+        <hr> 
+    </div>
 
     <section title="About me">
-        <div class="container">
+        <div class="about-me">
 
         </div>
     </section>
 
-    <section title="Contact me">
-        <div class="container">
+    <div class="hr">
+        <hr> 
+    </div>
 
+    <section title="Contact me">
+        <div class="contact-me">
+            <div>
+                <h3>Contact Me</h3>
+                <p>
+                    If you're interested, reach me out!
+                </p>
+            </div>
+            <div>
+                <p>
+                    Tel: +905334875978 <br>
+                    E-mail: ugurobuz@gmail.com <br>
+                    Istanbul/Eyüp <br>
+                </p>
+            </div>
         </div>
     </section>
 

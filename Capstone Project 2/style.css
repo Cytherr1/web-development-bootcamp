@@ -3,10 +3,106 @@ body {
     margin: 0px;
 }
 
+.hr {
+    display: flex;
+    justify-content: center;
+    background-color: #A5D7E8;
+}
 
+hr {
+    border: dashed;
+    width: 800px;
+    color: #576CBC;
+}
 
-.container {
-    display: block;
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #0B2447;
+}
+
+.hero-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #A5D7E8;
+}
+
+.hero-cont > div {
+    display: flex;
+}
+
+.resume {
+    border-radius: 20px;
+    height: 30px;
+    padding: 7px 20px 10px;
+    color: azure;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #19376D;
+}
+
+p {
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #576CBC;
+    margin-bottom: 30px;
+}
+
+div.profile-pic > img {
+    border-radius: 50%;
+    margin: 0px 50px 10px;
+    border: solid 10px ;
+    border-color:#19376D;
+}
+
+h3 {
+    color: #19376D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    color: #A5D7E8;
+    font-size: 48px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-h2 {
+    color: #576CBC;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-works{
+    height: 500px;
+    background-color: #A5D7E8;
+}
+
+.about-me {
+    height: 500px;
+    background-color: #A5D7E8;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    background-color: #A5D7E8;
 }
 
 .footer {
