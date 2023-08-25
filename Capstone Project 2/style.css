@@ -50,12 +50,16 @@ hr {
 }
 
 p {
-    width: 300px;
+    width: 310px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #576CBC;
     margin-bottom: 30px;
+}
+
+.about-me-para {
+    width: 400px;
 }
 
 div.profile-pic > img {
@@ -87,12 +91,25 @@ h1 {
 }
 
 .my-works{
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 600px;
     background-color: #A5D7E8;
 }
 
+.projects {
+    display: flex;
+    gap: 50px;
+}
+
 .about-me {
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
     background-color: #A5D7E8;
 }
 
